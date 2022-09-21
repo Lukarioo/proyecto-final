@@ -1,0 +1,18 @@
+/* CODE RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAVBAR */
+nav{
+    background: rgb(61,85,119);
+    background: linear-gradient(270deg, rgba(61,85,119,1) 10%, rgba(255,255,255,1) 40%);
+    border-bottom: 1px solid black;
+    img{
+        width: 50px;
+    }
+}
+@import './footer';
+@import './index';
+@import './productos';

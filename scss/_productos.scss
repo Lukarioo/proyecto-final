@@ -1,0 +1,74 @@
+/* MAIN PRODUCTOS */
+.cards-productos{
+    width: 100%;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+/* FORM */
+form{
+    grid-gap: 1rem;
+    padding: 2rem;
+    margin: 3rem;
+    background-image: url("https://pcspneumatic.com/wp-content/uploads/2020/06/0.no1aumh47gshow-to-find-leaks-in-pneumatic-systems-open-graph.jpg");
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.5), 20px 20px 20px #3d5577;
+    border-radius: 5px;
+    legend{
+        grid-area: legend;
+    }
+    input[name="nombre"]{
+        grid-area: nombre;
+    }
+    input[name="empresa"]{
+        grid-area: empresa;
+    }
+    input[name="telefono"]{
+        grid-area: telefono;
+    }
+    input[name="email"]{
+        grid-area: email;
+    }
+    textarea{
+        grid-area: mensaje;
+        resize: none;
+    }
+    input[type="submit"]{
+        grid-area: enviar;
+        width: 100px;
+        height: 40px;
+        margin: 0 auto;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            background-color: #3d5577;
+            color:  white;
+            scale: 1.1;
+        }
+    }
+    input, textarea{
+        padding: 8px;
+        border-radius: 7px;
+        border: 1px solid rgba(0, 0, 0, 0.5); 
+        color: black;
+        outline: none;
+        transition: border 500ms ease;
+        &:focus{
+            border: 1px solid black;
+        }
+        &::placeholder{
+            color: rgba(0, 0, 0, 0.6);
+            font-weight: 700;
+        }
+    }
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+}
+.newsletter{
+    grid-area: newsletter;
+    display: flex;
+    input, label{
+        cursor: pointer;
+    }
+}
