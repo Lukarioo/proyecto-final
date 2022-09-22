@@ -158,6 +158,9 @@ input[type=number]::-webkit-outer-spin-button {
   cursor: pointer;
 }
 
+.servicios {
+  margin-top: 3rem;
+}
 .servicios div div h4 {
   color: #3d5577;
 }
@@ -179,6 +182,9 @@ input[type=number]::-webkit-outer-spin-button {
   margin-top: 1rem;
 }
 
+.la-empresa {
+  margin-top: 5rem;
+}
 .la-empresa div div p {
   width: 90%;
   margin: 2rem auto 0px auto;
