@@ -56,6 +56,10 @@ footer {
 main video {
   width: 100%;
 }
+main .texto-p::first-letter {
+  font-size: xx-large;
+  color: #3d5577;
+}
 
 .cards-index {
   width: 100%;
@@ -128,6 +132,14 @@ form input, form textarea {
 form input:focus, form textarea:focus {
   border: 1px solid black;
 }
+form input::-moz-placeholder, form textarea::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 700;
+}
+form input:-ms-input-placeholder, form textarea:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 700;
+}
 form input::placeholder, form textarea::placeholder {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 700;
@@ -144,4 +156,95 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .newsletter input, .newsletter label {
   cursor: pointer;
+}
+
+.servicios div div h4 {
+  color: #3d5577;
+}
+.servicios div div p {
+  line-height: 1.5;
+  margin: 1rem;
+}
+.servicios div div ul li {
+  transition: background-color 500ms ease;
+}
+.servicios div div ul li:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.servicios div div div {
+  padding: 2rem;
+}
+.servicios div div div p {
+  border-left: 4px solid #3d5577;
+  margin-top: 1rem;
+}
+
+.la-empresa div div p {
+  width: 90%;
+  margin: 2rem auto 0px auto;
+}
+.la-empresa div div .listaHover {
+  transition: background-color 500ms ease;
+}
+.la-empresa div div .listaHover:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.la-empresa div div .texto-3AJ {
+  text-align: left;
+  margin: 1rem auto 2rem auto;
+}
+.la-empresa div div div img {
+  width: 150px;
+  height: 250px;
+}
+.la-empresa div div div h4 {
+  color: #3d5577;
+}
+.la-empresa div div .misionvalores {
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.la-empresa div div .misionvalores-body {
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
+}
+.la-empresa div div .misionvalores-body img {
+  width: 200px;
+  height: 150px;
+  margin: 2rem auto 0 auto;
+}
+.la-empresa div div .misionvalores-body li {
+  padding: 0.5rem;
+}
+.la-empresa .misionvalores-container {
+  width: 50%;
+  margin: 2rem auto;
+}
+.la-empresa div .imgSocios {
+  width: 150px;
+}
+.la-empresa .textoSocios {
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+}
+.la-empresa .sociosEstrategicos {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 80%;
+}
+.la-empresa .sociosEstrategicos h3 {
+  color: goldenrod;
+}
+.la-empresa .sociosEstrategicos h5 {
+  color: #3d5577;
+}
+.la-empresa .accordion-socios {
+  width: 75%;
+  margin: 0 auto 2rem auto;
 }/*# sourceMappingURL=estilos.css.map */

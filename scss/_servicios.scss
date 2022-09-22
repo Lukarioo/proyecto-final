@@ -1,0 +1,29 @@
+
+.servicios{
+    div{
+        div{
+            h4{
+                color: #3d5577;
+            }
+            p{
+                line-height: 1.5;
+                margin: 1rem;
+            }
+            ul{
+                li{
+                    transition: background-color 500ms ease;
+                    &:hover{
+                        background-color: rgb(0, 0, 0, 0.2);
+                    }
+                }
+            }
+            div{
+                padding: 2rem;
+                p{
+                    border-left: 4px solid #3d5577;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}

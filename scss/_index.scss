@@ -4,6 +4,10 @@ main{
     video{
         width: 100%;
     }
+    .texto-p::first-letter{
+        font-size: xx-large;
+        color: #3d5577;
+    }
 }
 .cards-index{
     width: 100%;

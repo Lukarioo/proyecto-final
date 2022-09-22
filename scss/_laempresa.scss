@@ -1,0 +1,80 @@
+.la-empresa{
+    div{
+        div{
+            p{
+                width: 90%;
+                margin: 2rem auto 0px auto;
+            }
+            .listaHover{
+                transition: background-color 500ms ease;
+                &:hover{
+                    background-color: rgb(0, 0, 0, 0.2);
+                }
+            }
+            .texto-3AJ{
+                text-align: left;
+                margin: 1rem auto 2rem auto;
+            }
+            div{
+                img{
+                    width: 150px;
+                    height: 250px;
+                }
+                h4{
+                    color: #3d5577;
+                }
+            }
+            .misionvalores{
+                color: goldenrod;
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+            .misionvalores-body{
+                padding: 1rem;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                width: 75%;
+                margin: 0 auto;
+                img{
+                    width: 200px;
+                    height: 150px;
+                    margin: 2rem auto 0 auto;
+                }
+                li{
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+    .misionvalores-container{
+        width: 50%;
+        margin: 2rem auto;
+    }
+    div{
+        .imgSocios{
+            width: 150px;
+        }
+    }
+    .textoSocios{
+        text-align: justify;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .sociosEstrategicos{
+        margin: 0 auto;
+        padding: 1rem;
+        width: 80%;
+        h3{
+            color: goldenrod;
+        }
+        h5{
+            color: #3d5577;
+        }
+    }
+    .accordion-socios{
+        width: 75%;
+        margin: 0 auto 2rem auto;
+
+    }
+}
