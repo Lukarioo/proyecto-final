@@ -1,21 +1,3 @@
-/* CODE RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* NAVBAR */
-nav {
-  background: rgb(61, 85, 119);
-  background: linear-gradient(270deg, rgb(61, 85, 119) 10%, rgb(255, 255, 255) 40%);
-  border-bottom: 1px solid black;
-}
-nav img {
-  width: 50px;
-}
-
-/* FOOTER */
 footer {
   background-color: #3d5577;
   width: 100%;
@@ -30,7 +12,6 @@ footer {
   text-align: justify;
 }
 
-/* SUBFOOTER + REDES */
 .subfooter {
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -51,13 +32,10 @@ footer {
   background-color: #26a826;
 }
 
-/* MAIN INDEX */
-/* VIDEO */
 main video {
   width: 100%;
 }
 main .texto-p::first-letter {
-  font-size: xx-large;
   color: #3d5577;
 }
 
@@ -71,8 +49,11 @@ main .texto-p::first-letter {
   width: 250px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5), 20px 20px 20px #3d5577;
 }
+.card-style:hover {
+  scale: 1.1;
+  transition: scale ease 1s;
+}
 
-/* MAIN PRODUCTOS */
 .cards-productos {
   width: 100%;
   justify-content: center;
@@ -80,14 +61,12 @@ main .texto-p::first-letter {
   margin-bottom: 3rem;
 }
 
-/* FORM */
 form {
   grid-gap: 1rem;
   padding: 2rem;
   margin: 3rem;
+  border-radius: 20px;
   background-image: url("https://pcspneumatic.com/wp-content/uploads/2020/06/0.no1aumh47gshow-to-find-leaks-in-pneumatic-systems-open-graph.jpg");
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5), 20px 20px 20px #3d5577;
-  border-radius: 5px;
 }
 form legend {
   grid-area: legend;
@@ -131,14 +110,6 @@ form input, form textarea {
 }
 form input:focus, form textarea:focus {
   border: 1px solid black;
-}
-form input::-moz-placeholder, form textarea::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.6);
-  font-weight: 700;
-}
-form input:-ms-input-placeholder, form textarea:-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.6);
-  font-weight: 700;
 }
 form input::placeholder, form textarea::placeholder {
   color: rgba(0, 0, 0, 0.6);
@@ -253,4 +224,21 @@ input[type=number]::-webkit-outer-spin-button {
 .la-empresa .accordion-socios {
   width: 75%;
   margin: 0 auto 2rem auto;
+}
+
+/* CODE RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+nav {
+  background: #3d5577;
+  background: linear-gradient(270deg, rgb(61, 85, 119) 10%, rgb(255, 255, 255) 40%);
+  border-bottom: 1px solid black;
+}
+nav img {
+  width: 50px;
 }/*# sourceMappingURL=estilos.css.map */

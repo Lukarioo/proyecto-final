@@ -1,6 +1,11 @@
-/* FOOTER */
+// IMPORTS
+
+@import './variables';
+
+// FOOTER
+
 footer{
-    background-color: #3d5577;
+    background-color: $ColorPneumatic;
     width: 100%;
 }
 .containerFooter{
@@ -10,7 +15,8 @@ footer{
 .textJustify{
     text-align: justify;
 }
-/* SUBFOOTER + REDES */
+// SUBFOOTER & REDES
+
 .subfooter{
     background-color: rgba(0, 0, 0, 0.2)
 }

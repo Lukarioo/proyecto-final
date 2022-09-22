@@ -1,12 +1,15 @@
-/* MAIN INDEX */
-/* VIDEO */
+// IMPORTS
+
+@import './variables';
+
+// INDEX
+
 main{ 
     video{
         width: 100%;
     }
     .texto-p::first-letter{
-        font-size: xx-large;
-        color: #3d5577;
+        color: $ColorPneumatic;
     }
 }
 .cards-index{
@@ -16,5 +19,9 @@ main{
 }
 .card-style{
     width: 250px;
-    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.5), 20px 20px 20px #3d5577;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.5), 20px 20px 20px $ColorPneumatic;
+    &:hover{
+        scale: 1.1;
+        transition: scale ease 1s;
+    }
 }

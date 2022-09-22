@@ -1,3 +1,8 @@
+// IMPORTS
+
+@import './variables';
+
+// LA EMPRESA
 .la-empresa{
     margin-top: 5rem;
     div{
@@ -22,7 +27,7 @@
                     height: 250px;
                 }
                 h4{
-                    color: #3d5577;
+                    color: $ColorPneumatic;
                 }
             }
             .misionvalores{
@@ -70,12 +75,11 @@
             color: goldenrod;
         }
         h5{
-            color: #3d5577;
+            color: $ColorPneumatic;
         }
     }
     .accordion-socios{
         width: 75%;
         margin: 0 auto 2rem auto;
-
     }
 }
