@@ -16,7 +16,7 @@
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">
+                <a class="navbar-brand" href="../index.html">
                     <img src="../multimedia/Logo.jpg" alt="Pneumatic-Service">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="./index.html">Inicio</a>
+                            <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Productos</a>
@@ -36,64 +36,61 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./la-empresa.html">La Empresa</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Novedades</a>
-                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
     <!-- MAIN -->
-    <main>
+    <main class="productos-main">
         <div class="row cards-productos d-flex">
-            <div class="card col-12 col-md-6 col-lg-6 col-xl-6 mx-3 card-style">
-                <img src="../multimedia/index/neumatica-1.jpg" class="card-img-top" alt="neumatica">
+            <div class="card col-12 col-md-6 col-lg-6 col-xl-6 mx-3 card-style mt-md-0 mt-3" data-aos="flip-right" data-aos-offset="300" data-aos-duration="1500">
+                <img src="../multimedia/productos/actuadores-1.png" class="card-img-top" alt="actuadores">
                     <div class="card-body">
-                        <h5 class="card-title">Neumática</h5>
+                        <h5 class="card-title">Actuadores</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary disabled">Ver Más</a>
                     </div>
             </div>
-            <div class="card col-12 col-md-6 col-lg-6 col-xl-6 mx-3 card-style">
-                <img src="../multimedia/index/motores-2.jpg" class="card-img-top" alt="motores">
+            <div class="card col-12 col-md-6 col-lg-6 col-xl-6 mx-3 card-style mt-md-0 mt-3" data-aos="flip-right" data-aos-offset="300" data-aos-duration="1500">
+                <img src="../multimedia/productos/conexiones-2.png" class="card-img-top" alt="conexiones">
                     <div class="card-body">
-                        <h5 class="card-title">Motores neumáticos</h5>
+                        <h5 class="card-title">Conexiones</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary disabled">Ver Más</a>
                     </div>
             </div>
-            <div class="card col-12 col-md-6 col-lg-6 col-xl-6 mx-3 card-style">
-                <img src="../multimedia/index/hidraulica-3.jpg" class="card-img-top" alt="hidraulica">
+            <div class="card col-12 col-md-6 col-lg-6 col-xl-6 mx-3 card-style mt-sm-4 mt-md-0 mt-3" data-aos="flip-right" data-aos-offset="300" data-aos-duration="1500">
+                <img src="../multimedia/productos/tratamiento-3.png" class="card-img-top" alt="tratamiento del aire">
                     <div class="card-body">
-                        <h5 class="card-title">Hidráulica</h5>
+                        <h5 class="card-title">Tratamiento del Aire</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary disabled">Ver Más</a>
                     </div>
             </div>
-            <div class="card col-12 col-md-6 col-lg-6 col-xl-6 mx-3 card-style">
-                <img src="../multimedia/index/mangueras-4.jpg" class="card-img-top" alt="mangueras">
+            <div class="card col-12 col-md-6 col-lg-6 col-xl-6 mx-3 card-style mt-sm-4 mt-md-0 mt-3" data-aos="flip-right" data-aos-offset="300" data-aos-duration="1500">
+                <img src="../multimedia/productos/valvulas-4.png" class="card-img-top" alt="valvulas">
                     <div class="card-body">
-                        <h5 class="card-title">Mangueras</h5>
+                        <h5 class="card-title">Válvulas</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary disabled">Ver Más</a>
                     </div>
             </div>
         </div>
         <!-- FORM -->
-            <form class="formStyle row container mx-auto" action="">
-                <h5 class="col-12">Para conocer el catálogo completo de productos, complete el siguiente formulario.</h5>
-                <input class="col-12 col-md-4" type="text" name="nombre" placeholder="Nombre y Apellido">
-                <input class="col-12 col-md-4" type="text" name="empresa" placeholder="Empresa">
-                <input class="col-12 col-md-4" type="number" name="telefono" placeholder="Teléfono">
-                <input class="col-12 col-md-4" type="email" name="email" placeholder="Email">
-                <textarea class="col-12" name="mensaje" rows="15" placeholder="Consulta" id=""></textarea>
-                <div class="d-flex">
-                    <input type="checkbox" name="newsletter" id="newsletter">
-                    <label for="newsletter">Suscribirme a las Noticias</label>
-                </div>
-                <input class="col-6" type="submit">
-            </form>
+        <form class="formStyle row mx-auto justify-content-center" action="">
+            <h5 class="col-12 text-center text-light mb-3">Para conocer el catálogo completo de productos, complete el siguiente formulario.</h5>
+            <input class="col-12 col-md-4 col-lg-2" type="text" name="nombre" placeholder="Nombre y Apellido">
+            <input class="col-12 col-md-4 col-lg-2" type="number" name="telefono" placeholder="Teléfono">
+            <input class="col-12 col-md-4 col-lg-2" type="text" name="empresa" placeholder="Empresa">
+            <input class="col-12 col-md-4 col-lg-2" type="email" name="email" placeholder="Email">
+            <textarea class="col-12 col-lg-8" name="mensaje" rows="10" placeholder="Consulta" id="Consulta"></textarea>
+            <div class="newsletter justify-content-center">
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">Suscribirme a las Noticias</label>
+            </div>
+            <input class="col-6" type="submit">
+        </form>
     </main>
     <!-- FOOTER -->
     <div class="containerFooter">
@@ -129,7 +126,7 @@
                             <p><i class="fas fa-phone mr-3"></i> +54 9 11 4709-9596</p>
                         </div>
                         <!-- REDES -->
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 text-center">
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 text-center overflow-hidden mt-sm-3">
                             <h6 class="text-uppercase mb-4 font-weight-bold">Redes</h6>
                             <div class="row d-flex justify-content-center flex-column align-items-center">
                                 <a class="btn btn-dark btn-floating m-1 facebook col-3" data-aos="fade-up" data-aos-delay="100" href="https://www.facebook.com/" role="button" target="_blank">
@@ -152,6 +149,7 @@
             <div class="text-center p-3 subfooter">
                 <h6>© 2022 Copyright: Pneumatic Service S.A.</h6>
             </div>
+            <!-- <i class="fa-solid fa-chevron-up estiloBoton"></i> no disponible aun--> 
         </footer>
     </div>
 <!----------- JavaScript--------------- -->
@@ -161,5 +159,6 @@
 </script>
 <script src="https://kit.fontawesome.com/ab5158d252.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>

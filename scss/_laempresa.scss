@@ -3,6 +3,7 @@
 @import './variables';
 
 // LA EMPRESA
+
 .la-empresa{
     margin-top: 5rem;
     div{
@@ -10,6 +11,13 @@
             p{
                 width: 90%;
                 margin: 2rem auto 0px auto;
+            }
+            .list-style{
+                background-color: $ColorPneumatic;
+                color: #ececec;
+                &:hover{
+                    color: black;
+                }
             }
             .listaHover{
                 transition: background-color 500ms ease;
@@ -24,7 +32,6 @@
             div{
                 img{
                     width: 150px;
-                    height: 250px;
                 }
                 h4{
                     color: $ColorPneumatic;
@@ -70,7 +77,7 @@
     .sociosEstrategicos{
         margin: 0 auto;
         padding: 1rem;
-        width: 80%;
+        width: 60%;
         h3{
             color: goldenrod;
         }
@@ -79,7 +86,7 @@
         }
     }
     .accordion-socios{
-        width: 75%;
+        width: 60%;
         margin: 0 auto 2rem auto;
     }
 }

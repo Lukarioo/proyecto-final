@@ -5,17 +5,36 @@
 // SERVICIOS
 
 .servicios{
-    margin-top: 3rem;
+    width: 75%;
+    margin: 5rem auto;
+    .row{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        padding: 0;
+        border: 4px double black;
+        border-radius: 9px;
+    }
     div{
         div{
             h4{
                 color: $ColorPneumatic;
+                margin-bottom: 2rem;
+                width: 100%;
             }
             p{
                 line-height: 1.5;
-                margin: 1rem;
+                margin: 1rem 0 1rem 0;
             }
             ul{
+                .list-style{
+                    background-color: $ColorPneumatic;
+                    color: #ececec;
+                    &:hover{
+                        color: black;
+                    }
+                }
                 li{
                     transition: background-color 500ms ease;
                     &:hover{
@@ -24,10 +43,11 @@
                 }
             }
             div{
-                padding: 2rem;
+                margin-top: 2rem;
                 p{
                     border-left: 4px solid $ColorPneumatic;
                     margin-top: 1rem;
+                    font-style: italic;
                 }
             }
         }
