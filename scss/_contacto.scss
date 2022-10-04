@@ -1,0 +1,80 @@
+// IMPORTS
+
+@import './variables';
+
+.formContainer{
+    padding: 2rem;
+    background-color:#C0C0C0;
+    box-shadow: 0px 0px 140px -31px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 140px -31px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 0px 0px 140px -31px rgba(0,0,0,0.75) inset;
+}
+.mainContacto{
+    margin-top: 75px;
+    width: 100%;
+    h3{
+        margin: 20px auto 1rem auto;
+        color: $ColorPneumatic;
+    }
+    form{
+        div{
+            display: flex;
+            flex-direction: column;
+            color: $ColorPneumatic;
+            label{
+                width: 16ch;
+            }
+            input{
+                margin: 1rem 0rem;
+                display: flex;
+                border: none;
+                outline: 0;
+                border-radius: 5px;
+                padding: 4px 8px;
+                border-bottom: 2px solid $ColorPneumatic;
+                transition: background-color ease 500ms;
+                &[type=submit]{
+                    width: 100px;
+                    justify-content: center;
+                    background-color: $ColorPneumatic;
+                    color: white;
+                }
+                &[type=number]::-webkit-inner-spin-button, 
+                [type=number]::-webkit-outer-spin-button { 
+                    -webkit-appearance: none; 
+                    margin: 0;
+                }
+                &:focus{
+                    background-color: rgb(210, 234, 241);
+                }
+            }
+            textarea{
+                resize: none;
+                height: 150px;
+                margin: 0.5rem 0rem 1.2rem 0rem;
+                padding: 4px 8px;
+                outline: 0;
+                border: none;
+                border-left: 4px solid $ColorPneumatic;
+                border-radius: 5px;
+                transition: background-color ease 500ms;
+                &:focus{
+                    background-color: rgb(210, 234, 241);
+                }
+            }
+        }
+    }
+}
+.iframe-style{
+    padding: 0;
+    iframe{
+        @include size(100%, 100%);
+        margin: 0;
+    }
+}
+
+@media (max-width: 767px){
+    .iframe-style{
+        height: 500px;
+    }
+}

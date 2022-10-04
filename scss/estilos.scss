@@ -5,6 +5,7 @@
 @import './productos';
 @import './servicios';
 @import './laempresa';
+@import './contacto';
 @import './variables';
 
 /* CODE RESET */
@@ -18,16 +19,27 @@ html{
     scroll-behavior: smooth;
 }
 
+main{
+    position: relative;
+}
+
 .estiloBoton{
-    position: absolute;
-    color: red;
-    transition: transform 500ms ease;
-    font-size: 1.5rem;
+    position: sticky;
+    left: 97%;
+    bottom: -20px;
+    opacity: 0;
+    color: $ColorPneumatic;
+    transition: all 700ms ease;
+    font-size: 2rem;
     &:hover{
         transform: scale(1.5);
-        border-bottom: 2px solid white;
     }
 }
+.estiloBoton.active{
+    opacity: 1;
+    bottom: 10px;
+}
+
 
 
 

@@ -67,8 +67,8 @@ main .texto-p::first-letter {
   position: absolute;
   bottom: -50px;
   left: 5%;
-  width: 90%;
   height: 20px;
+  width: 90%;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 50%;
   z-index: -1;
@@ -79,20 +79,20 @@ main .texto-p::first-letter {
   padding: 0;
   border-radius: 9px;
   margin-top: 12px;
-  width: 275px;
   height: 250px;
+  width: 275px;
 }
 .card-style .flip-card {
   background-color: transparent;
-  width: 300px;
   height: 200px;
+  width: 300px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 .card-style .flip-card-inner {
   position: relative;
-  width: 100%;
   height: 100%;
+  width: 100%;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -102,8 +102,8 @@ main .texto-p::first-letter {
 }
 .card-style .flip-card-front, .card-style .flip-card-back {
   position: absolute;
-  width: 100%;
   height: 100%;
+  width: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
@@ -122,81 +122,6 @@ main .texto-p::first-letter {
   justify-content: center;
   margin-top: 7rem;
   margin-bottom: 6rem;
-}
-
-form {
-  grid-gap: 1rem;
-  padding: 2rem;
-  margin: 3rem 0rem 0rem 0rem;
-  box-shadow: 0px -4px 5px 0px #3d5577;
-  -webkit-box-shadow: 0px -4px 5px 0px #3d5577;
-  -moz-box-shadow: 0px -4px 5px 0px #3d5577;
-  background-image: url("https://pcspneumatic.com/wp-content/uploads/2020/06/0.no1aumh47gshow-to-find-leaks-in-pneumatic-systems-open-graph.jpg");
-}
-form h5 {
-  grid-area: legend;
-  text-shadow: 5px 5px 5px black;
-}
-form input[name=nombre] {
-  grid-area: nombre;
-}
-form input[name=empresa] {
-  grid-area: empresa;
-}
-form input[name=telefono] {
-  grid-area: telefono;
-}
-form input[name=email] {
-  grid-area: email;
-}
-form textarea {
-  grid-area: mensaje;
-  resize: none;
-}
-form .newsletter {
-  grid-area: newsletter;
-  display: flex;
-}
-form .newsletter input {
-  cursor: pointer;
-  margin-right: 10px;
-}
-form .newsletter label {
-  cursor: pointer;
-  font-weight: 500;
-}
-form input[type=submit] {
-  grid-area: enviar;
-  width: 100px;
-  height: 40px;
-  margin: 0 auto;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-form input[type=submit]:hover {
-  background-color: #3d5577;
-  color: white;
-  scale: 1.1;
-}
-form input, form textarea {
-  padding: 8px;
-  border-radius: 7px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  color: black;
-  outline: none;
-  transition: border 500ms ease;
-}
-form input:focus, form textarea:focus {
-  border: 1px solid black;
-}
-form input::placeholder, form textarea::placeholder {
-  color: rgba(0, 0, 0, 0.6);
-  font-weight: 700;
-}
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
 }
 
 .servicios {
@@ -322,6 +247,83 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0 auto 2rem auto;
 }
 
+.formContainer {
+  padding: 2rem;
+  background-color: #C0C0C0;
+  box-shadow: 0px 0px 140px -31px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 0px 0px 140px -31px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 0px 0px 140px -31px rgba(0, 0, 0, 0.75) inset;
+}
+
+.mainContacto {
+  margin-top: 75px;
+  width: 100%;
+}
+.mainContacto h3 {
+  margin: 20px auto 1rem auto;
+  color: #3d5577;
+}
+.mainContacto form div {
+  display: flex;
+  flex-direction: column;
+  color: #3d5577;
+}
+.mainContacto form div label {
+  width: 16ch;
+}
+.mainContacto form div input {
+  margin: 1rem 0rem;
+  display: flex;
+  border: none;
+  outline: 0;
+  border-radius: 5px;
+  padding: 4px 8px;
+  border-bottom: 2px solid #3d5577;
+  transition: background-color ease 500ms;
+}
+.mainContacto form div input[type=submit] {
+  width: 100px;
+  justify-content: center;
+  background-color: #3d5577;
+  color: white;
+}
+.mainContacto form div input[type=number]::-webkit-inner-spin-button,
+.mainContacto form div input [type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.mainContacto form div input:focus {
+  background-color: rgb(210, 234, 241);
+}
+.mainContacto form div textarea {
+  resize: none;
+  height: 150px;
+  margin: 0.5rem 0rem 1.2rem 0rem;
+  padding: 4px 8px;
+  outline: 0;
+  border: none;
+  border-left: 4px solid #3d5577;
+  border-radius: 5px;
+  transition: background-color ease 500ms;
+}
+.mainContacto form div textarea:focus {
+  background-color: rgb(210, 234, 241);
+}
+
+.iframe-style {
+  padding: 0;
+}
+.iframe-style iframe {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .iframe-style {
+    height: 500px;
+  }
+}
 /* CODE RESET */
 * {
   margin: 0;
@@ -333,15 +335,26 @@ html {
   scroll-behavior: smooth;
 }
 
+main {
+  position: relative;
+}
+
 .estiloBoton {
-  position: absolute;
-  color: red;
-  transition: transform 500ms ease;
-  font-size: 1.5rem;
+  position: sticky;
+  left: 97%;
+  bottom: -20px;
+  opacity: 0;
+  color: #3d5577;
+  transition: all 700ms ease;
+  font-size: 2rem;
 }
 .estiloBoton:hover {
   transform: scale(1.5);
-  border-bottom: 2px solid white;
+}
+
+.estiloBoton.active {
+  opacity: 1;
+  bottom: 10px;
 }
 
 /* NAVBAR */

@@ -1,1 +1,13 @@
 $ColorPneumatic: #3d5577;
+
+@mixin flex($flex, $direction, $justify, $align){
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin size($height, $width){
+    height: $height;
+    width: $width;
+}

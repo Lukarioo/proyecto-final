@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pneumatic Service ofrece a sus clientes una garantía de reparación o reposición total de los productos como también servicios de asesoría y control de sistemas de aire">
+    <meta name="description" content="Contactate con Pneumatic Service a través del correo electrónico por cualquier consulta, presupuesto o cotización">
     <meta name="keywords" content="Neumática Hidráulica Aire Comprimido Motores Neumáticos Válvulas Conectores Conexiones Mangueras">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="icon" href="../multimedia/Logo.jpg">
     <title>Pneumatic Service</title>
-    
 </head>
 <body>
     <!-- HEADER -->
@@ -19,7 +18,7 @@
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="../index.html">
                     <img src="../multimedia/Logo.jpg" alt="Pneumatic-Service">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,19 +27,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active activo" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/productos.html">Productos</a>
+                            <a class="nav-link" href="./productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/la-empresa.html">La Empresa</a>
+                            <a class="nav-link" href="./la-empresa.html">La Empresa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                            <a class="nav-link active" href="#">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -48,48 +47,39 @@
         </nav>
     </header>
     <!-- MAIN -->
-    <main>
-        <video src="../multimedia/index/video-index.webm" autoplay loop></video>
-        <!-- CARDS INDEX -->
-        <div class="row cards-index d-flex mt-3">
-            <div class="card col-12 col-md-6 col-lg-6 col-xl-6 mx-3 card-style mt-md-4 mt-4" data-aos="flip-right" data-aos-offset="300" data-aos-duration="1500">
-                <img src="../multimedia/index/neumatica-1.jpg" class="card-img-top" alt="neumatica">
-                <div class="card-body">
-                    <h5 class="card-title">Neumática</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary disabled">Ver Más</a>
+    <main class="container-fluid row mainContacto mx-0 p-0">
+        <!-- FORM -->
+        <div class="formContainer col-12 col-md-6">
+            <h3>Contactanos</h3>
+            <form class="row col-md-12">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" autocomplete="name">
                 </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-6 col-xl-6 mx-3 card-style mt-md-4 mt-4" data-aos="flip-right" data-aos-offset="300" data-aos-duration="1500">
-                <img src="../multimedia/index/motores-2.jpg" class="card-img-top" alt="motores">
-                <div class="card-body">
-                    <h5 class="card-title">Motores neumáticos</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary disabled">Ver Más</a>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <label for="telefono">Teléfono</label>
+                    <input type="number">
                 </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-6 col-xl-6 mx-3 card-style mt-sm-4 mt-md-4 mt-4" data-aos="flip-right" data-aos-offset="300" data-aos-duration="1500">
-                <img src="../multimedia/index/hidraulica-3.jpg" class="card-img-top" alt="hidraulica">
-                <div class="card-body">
-                    <h5 class="card-title">Hidráulica</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary disabled">Ver Más</a>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <label for="mail">Correo</label>
+                    <input type="email" required autocomplete="email">
                 </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-6 col-xl-6 mx-3 card-style mt-sm-4 mt-md-4 mt-4" data-aos="flip-right" data-aos-offset="300" data-aos-duration="1500">
-                <img src="../multimedia/index/mangueras-4.jpg" class="card-img-top" alt="mangueras">
-                <div class="card-body">
-                    <h5 class="card-title">Mangueras</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary disabled">Ver Más</a>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <label for="empresa">Empresa</label>
+                    <input type="text">
                 </div>
-            </div>
+                <div class="col-12">
+                    <label for="Mensaje">Consulta</label>
+                    <textarea for="mensaje"></textarea>
+                </div>
+                <div class="col-12 align-items-center">
+                    <input type="submit">
+                </div>
+            </form>
         </div>
-        <div class="d-flex p-3 m-5 row textJustify">
-            <p class="col-12 col-lg-6 texto-p">Pneumatic Service se ha establecido en el campo de la automatización industrial para brindar una amplia gama de productos de alta calidad, eficacia y rendimiento con la mejor relación costo beneficio para sus clientes. Para ello la compañía tiene un alto compromiso con el servicio al cliente y con el soporte técnico pre y post venta a los productos.</p>
-            <p class="col-12 col-lg-6">Nuestro compromiso es ayudar a nuestros clientes en la solución de problemas relacionados con la neumática y tecnologías complementarias (por ejemplo generación de aire comprimido, vacío, hidráulica, electrónica, etc.). Esto nos permite y obliga a introducir nuevos productos y/o alternativas de marcas para diferentes equipos, distintos procedimientos según el requerimiento y nuevas técnicas en cada aplicación.</p>
+        <div class="col-12 col-md-6 iframe-style">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.0115770657444!2d-58.51790008461065!3d-34.55326226233747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb723c9b01a33%3A0x1cb8c2cba37f2c9d!2sPneumatic%20Service!5e0!3m2!1ses-419!2sar!4v1664388537794!5m2!1ses-419!2sar"></iframe>
         </div>
-        <i class="fa-solid fa-chevron-up estiloBoton"></i>
     </main>
     <!-- FOOTER -->
     <div class="containerFooter">
@@ -137,7 +127,7 @@
                                 <a class="btn btn-dark btn-floating m-1 youtube col-3" data-aos="fade-up" data-aos-delay="300" href="https://www.youtube.com/" role="button" target="_blank">
                                     <i class="fab fa-youtube"></i>
                                 </a>
-                                <a class="btn btn-dark btn-floating m-1 whatsapp col-3" data-aos="fade-up" data-aos-delay="400" data-aos-offset="3" href="https://www.whatsapp.com/" role="button" target="_blank">
+                                <a class="btn btn-dark btn-floating m-1 whatsapp col-3" data-aos="fade-up" data-aos-delay="400" data-aos-offset="2" href="https://www.whatsapp.com/" role="button" target="_blank">
                                     <i class="fab fa-whatsapp"></i>
                                 </a>
                             </div>
@@ -148,6 +138,7 @@
             <div class="text-center p-3 subfooter">
                 <h6>© 2022 Copyright: Pneumatic Service S.A.</h6>
             </div>
+            <!-- <i class="fa-solid fa-chevron-up estiloBoton"></i> no disponible aun--> 
         </footer>
     </div>
 <!----------- JavaScript--------------- -->
@@ -157,6 +148,6 @@
 </script>
 <script src="https://kit.fontawesome.com/ab5158d252.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-<script src="./js/main.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>
