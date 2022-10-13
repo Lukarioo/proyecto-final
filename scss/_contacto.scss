@@ -31,6 +31,10 @@
                 padding: 4px 8px;
                 border-bottom: 2px solid $ColorPneumatic;
                 transition: background-color ease 500ms;
+                &[type=checkbox]{
+                    width: 50%;
+                    display: flex;
+                }
                 &[type=submit]{
                     width: 100px;
                     justify-content: center;
@@ -38,12 +42,12 @@
                     color: white;
                 }
                 &[type=number]::-webkit-inner-spin-button, 
-                [type=number]::-webkit-outer-spin-button { 
+                &[type=number]::-webkit-outer-spin-button { 
                     -webkit-appearance: none; 
                     margin: 0;
                 }
                 &:focus{
-                    background-color: rgb(210, 234, 241);
+                    background-color: rgb(204, 227, 235);
                 }
             }
             textarea{
