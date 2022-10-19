@@ -444,6 +444,10 @@ main .texto-p::first-letter {
   font-style: italic;
 }
 
+.laEmpresaHeader {
+  z-index: 100;
+}
+
 .la-empresa {
   margin-top: 5rem;
 }
@@ -589,6 +593,13 @@ main .texto-p::first-letter {
   background-color: rgb(210, 234, 241);
 }
 
+.checkboxStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .iframe-style {
   padding: 0;
 }
@@ -608,6 +619,7 @@ main .texto-p::first-letter {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 html {
